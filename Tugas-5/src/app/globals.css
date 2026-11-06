@@ -1,0 +1,105 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0b0d17;
+  color: #e8ecf5;
+}
+
+a {
+  text-decoration: none;
+}
+
+section,
+#beranda {
+  scroll-margin-top: 56px;
+}
+
+.navbar-gelap,
+.footer {
+  background: #06070d;
+  border-color: #222838;
+}
+
+.navbar-gelap {
+  border-bottom: 1px solid #222838;
+}
+
+.footer {
+  border-top: 1px solid #222838;
+}
+
+/* menu aktif */
+.navbar .nav-link.active {
+  color: #3fa9ff !important;
+  font-weight: bold;
+  border-bottom: 2px solid #3fa9ff;
+}
+
+.section-gelap {
+  background: #11152a;
+}
+
+.btn-primary {
+  background: #3fa9ff;
+  border-color: #3fa9ff;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background: #1d8ff0;
+  border-color: #1d8ff0;
+  color: #000;
+}
+
+.banner {
+  height: 80vh;
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+  text-shadow: 1px 1px 4px #000;
+}
+
+.card {
+  background: #0b0d17;
+  border-color: #222838;
+}
+
+.card-gambar {
+  height: 200px;
+  object-fit: cover;
+}
+
+.form-control {
+  background: #11152a;
+  border-color: #2c3348;
+}
+
+@media (max-width: 991px) {
+  .navbar .nav-link.active {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 50vh;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+}
